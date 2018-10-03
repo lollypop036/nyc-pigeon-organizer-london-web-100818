@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
 
 
 pigeon_list = {} 
-data.each |categories| do
+data.each do |categories, subc| 
 
 
 
